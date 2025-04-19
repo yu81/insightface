@@ -4,6 +4,11 @@ version = "0.1.0"
 description = ""
 readme = "README.md"
 requires-python = ">=3.12"
+
+[build-system]
+requires = ["setuptools>=78.1.1", "wheel"]
+build-backend = "setuptools.build_meta"
+
 dependencies = [
     "albumentations>=2.0.5",
     "cmake>=4.0.0",
