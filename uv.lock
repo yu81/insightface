@@ -184,7 +184,7 @@ wheels = [
 ]
 
 [[package]]
-name = "insightface-yu81-fork"
+name = "insightface"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
