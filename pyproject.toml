@@ -18,3 +18,17 @@ dependencies = [
     "scipy>=1.15.2",
     "tqdm>=4.67.1",
 ]
+
+[tool.setuptools]
+packages = [
+  "parsing",
+  "detection",
+  "model_zoo",
+  "alignment",
+  "attribute",
+  "generation",
+  "challenges",
+  "recognition",
+  "reconstruction",
+]
+include-package-data = true 
