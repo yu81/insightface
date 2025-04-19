@@ -1,0 +1,20 @@
+[project]
+name = "insightface"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "albumentations>=2.0.5",
+    "cmake>=4.0.0",
+    "cython>=3.0.12",
+    "mxnet>=1.9.1",
+    "numpy>=1.26.4",
+    "opencv-python>=4.11.0.86",
+    "pillow>=11.2.1",
+    "requests>=2.32.3",
+    "scikit-image>=0.25.2",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.2",
+    "tqdm>=4.67.1",
+]
